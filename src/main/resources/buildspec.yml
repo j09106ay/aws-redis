@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+ build:
+  commands:
+   - echo Entered the build phases..
+   - mvn clean package
+  
+  post_build:
+   commands:
+    - echo Build completed successfully.
+
+artifacts:
+ files:
+  - target/aws-practice.jar
+ discard-paths: yes
+  
