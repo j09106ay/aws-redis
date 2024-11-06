@@ -39,8 +39,8 @@ spring:
     multipart:
       max-file-size: 5MB
   redis:
-    host: localhost
-    password: jay
+    host: clustercfg.jay-redis-cluster.wrunxk.apse1.cache.amazonaws.com
+    password: redisauthtokenforlocal
 
 #Logging
 logging:
